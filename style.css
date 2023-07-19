@@ -129,7 +129,7 @@ nav .list-div {
 }
 
 .gamer-container {
-    max-width: 80%;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     gap: 20px;
@@ -149,7 +149,7 @@ nav .list-div {
 }
 
 .gamer-title {
-    margin-top: -20px;
+    margin-top: 90px;
     font-size: 2.5rem;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -165,6 +165,75 @@ nav .list-div {
 
 }
 
+.funny-videos-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.video-collection{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+.video-title{
+    margin: 50px auto;
+}
+.collections > p{
+    margin-top: 20px;
+    text-align: left;
+}
+.funny-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.video-title h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.play-container{
+    margin: 80px auto;
+    max-width: 1440px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.contant-title{
+    margin-top: 250px;
+   margin-left: 0px;
+    text-align: right;
+    
+}
+.contant-title > h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+.contant-title span{
+    color: var(--main-color);
+}
+
+.sub-img{
+    margin-top: 0px;
+    position: relative;
+    bottom: 270px;
+    right: 150px;
+  
+}
+.shortcut-container{
+    max-width: 1440px;
+}
 
 
 
