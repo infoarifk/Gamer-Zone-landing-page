@@ -203,14 +203,13 @@ nav .list-div {
 }
 
 .play-container{
-    margin: 80px auto;
+    margin: 60px auto 0px auto;
     max-width: 1440px;
     display: flex;
-    
     justify-content: space-between;
 }
 .contant-title{
-    margin-top: 250px;
+    margin-top: 220px;
    margin-left: 0px;
     text-align: right;
     
@@ -231,8 +230,27 @@ nav .list-div {
     right: 150px;
   
 }
+.shortcut-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
 .shortcut-container{
     max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 120px 0px;
+    gap: 10px;
+}
+.shortcut{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFF;
+    padding: 8px 30px;
+    border-radius: 50px;
+
 }
 
 
