@@ -32,14 +32,14 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo-div {
+.logo-div {
     display: flex;
     align-items: center;
     gap: 12px;
     cursor: pointer;
 }
 
-.logo-div .custom {
+.custom {
     color: var(--main-color);
 }
 
@@ -142,7 +142,7 @@ nav .list-div {
 
 }
 
-.gamer-content {}
+
 
 .gamer-poster {
     margin: 30px 0px;
@@ -251,6 +251,62 @@ nav .list-div {
     padding: 8px 30px;
     border-radius: 50px;
 
+}
+footer{
+    background: #0B0223;
+    padding: 120px 200px;
+   
+}
+.footer-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    
+    
+}
+.footer-logo{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+    
+}
+.footer-item{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.footer-item > li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.item-2{
+    margin-top: 20px;
+    
+}
+.item-2 > li{
+    font-size: 0.8rem;
+    color: rgb(165, 165, 165);
+}
+.copyright{
+    color: rgb(165, 165, 165);
+    margin-top: 25px;
+    font-size: 0.8rem;
 }
 
 
