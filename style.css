@@ -122,3 +122,156 @@ nav .list-div {
 .btn-2 {
     background-color: #4EC5F7;
 }
+
+
+.we-are-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-container {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.gamer-content {
+    text-align: right;
+
+}
+
+.gamer-content {}
+
+.gamer-poster {
+    margin: 30px 0px;
+}
+
+.gamer-title {
+    margin-top: -20px;
+    font-size: 2.5rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.description,
+.btn-3,
+.quote {
+    margin-top: 20px;
+
+}
+
+
+
+
+
+/*Mobile-responsive start*/
+@media screen and (max-width: 576px) {
+
+    nav,
+    .list-div {
+        max-width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .logo-div,
+    .list-div {
+        margin-top: 20px;
+    }
+
+    .list-div {
+        gap: 25px;
+    }
+
+    .list-div .list-item {
+        margin: 0px
+    }
+
+    .follow-us-div {
+        margin-left: 15px;
+    }
+
+    .banner-section {
+        max-width: 100%;
+        background-image: none;
+
+
+
+    }
+
+    .banner-container {
+        max-width: 100%;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+
+        max-width: 100%;
+        background-image: url("Group\ 14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+
+    }
+
+    .goat {
+        font-size: 4rem;
+        text-align: center;
+        letter-spacing: 0px;
+    }
+
+    .play-like {
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .quick-item {
+        margin-left: 40px;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .banner-img img {
+        max-width: 100%;
+    }
+
+    .banner-button {
+        display: flex;
+        gap: 15px;
+        margin-top: 18px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .btn-main {
+        background-color: var(--main-color);
+        color: #FFF;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 28px;
+    }
+
+    .btn-2 {
+        background-color: #4EC5F7;
+    }
+
+
+}
+
+/*Mobile-responsive end*/
+
+
+
+/*Tablet-responsive start*/
+
+
+/*Tablet-responsive end*/
