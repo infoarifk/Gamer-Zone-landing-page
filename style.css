@@ -165,75 +165,84 @@ nav .list-div {
 
 }
 
-.funny-videos-container{
+.funny-videos-container {
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
-    
+
 
 }
 
 
-.video-collection{
+.video-collection {
     display: flex;
     align-items: center;
     gap: 20px;
     max-width: 80%;
     margin-bottom: 40px;
 }
-.video-title{
+
+.video-title {
     margin: 50px auto;
 }
-.collections > p{
+
+.collections>p {
     margin-top: 20px;
     text-align: left;
 }
-.funny-title{
+
+.funny-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 }
-.video-title h1{
+
+.video-title h1 {
     font-size: 3rem;
     margin-bottom: 20px;
 }
 
-.play-container{
+.play-container {
     margin: 60px auto 0px auto;
     max-width: 1440px;
     display: flex;
     justify-content: space-between;
 }
-.contant-title{
+
+.contant-title {
     margin-top: 220px;
-   margin-left: 0px;
+    margin-left: 0px;
     text-align: right;
-    
+
 }
-.contant-title > h2{
+
+.contant-title>h2 {
     font-size: 3rem;
     margin-bottom: 20px;
 
 }
-.contant-title span{
+
+.contant-title span {
     color: var(--main-color);
 }
 
-.sub-img{
+.sub-img {
     margin-top: 0px;
     position: relative;
     bottom: 270px;
     right: 150px;
-  
+
 }
-.shortcut-section{
+
+.shortcut-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
-.shortcut-container{
+
+.shortcut-container {
     max-width: 1440px;
     display: flex;
     align-items: center;
@@ -243,7 +252,8 @@ nav .list-div {
     padding: 120px 0px;
     gap: 10px;
 }
-.shortcut{
+
+.shortcut {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -252,21 +262,24 @@ nav .list-div {
     border-radius: 50px;
 
 }
-footer{
+
+footer {
     background: #0B0223;
     padding: 120px 200px;
-   
+
 }
-.footer-container{
+
+.footer-container {
     max-width: 1440px;
     margin: 0 auto;
     text-align: center;
-    
-    
-    
-    
+
+
+
+
 }
-.footer-logo{
+
+.footer-logo {
     color: #FFF;
     display: flex;
     align-items: center;
@@ -274,20 +287,27 @@ footer{
     cursor: pointer;
     justify-content: center;
     margin-bottom: 50px;
-    
-    
+
+
 }
-.footer-item{
+
+.footer-custom {
+    color: var(--main-color);
+}
+
+.footer-item {
     color: #FFF;
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-.footer-item > li{
+
+.footer-item>li {
     list-style: none;
     font-size: 1.1rem;
 }
-.social-icon{
+
+.social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,15 +315,18 @@ footer{
     padding: 30px;
     margin-top: 20px;
 }
-.item-2{
+
+.item-2 {
     margin-top: 20px;
-    
+
 }
-.item-2 > li{
+
+.item-2>li {
     font-size: 0.8rem;
     color: rgb(165, 165, 165);
 }
-.copyright{
+
+.copyright {
     color: rgb(165, 165, 165);
     margin-top: 25px;
     font-size: 0.8rem;
@@ -407,14 +430,60 @@ footer{
         background-color: #4EC5F7;
     }
 
+    .funny-videos-container,
+    .video-collection,
+    .gamer-container,
+    .play-container {
+        width: 70%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gamer-poster img {
+        width: 100%;
+    }
+
+    .gamer-content {
+        text-align: center;
+    }
+
+    .contant-photo img {
+        width: 100%;
+    }
+
+    .sub-img {
+        width: 40%;
+        margin-top: 0px;
+        position: relative;
+        bottom: 120px;
+        right: 40px;
+    }
+    .contant-title{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        justify-content: flex-start;
+    }
+
+    .shortcut-container{
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .collections img{
+        width: 100%;
+    }
+    .footer-container{
+        width: 60%;
+    }
+.footer-item{
+    flex-direction: column;
+}
+.social-icon{
+    flex-direction: column;
+}
 
 }
 
 /*Mobile-responsive end*/
-
-
-
-/*Tablet-responsive start*/
-
-
-/*Tablet-responsive end*/
